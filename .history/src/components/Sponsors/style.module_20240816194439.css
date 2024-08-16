@@ -1,0 +1,16 @@
+.sponsor__section{
+    text-align: center;
+    & .main__sponsors{
+        display: flex;
+        & li{
+            flex-basis: 50%;
+        }
+    }
+    & .other__sponsors{
+        display: flex;
+        flex-wrap: wrap;
+        & li{
+            flex-basis: calc(100% / 4);
+        }
+    }
+}

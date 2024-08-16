@@ -1,0 +1,7 @@
+.gallery{
+    padding: 120px 10px;
+    background: url(../../../public//assets/img/galleryBg.webp) center top/cover;
+    & h2{
+        text-align: center;
+    }
+}

@@ -1,0 +1,4 @@
+.speakers{
+    padding: clamp(30px, 5vw, 70px) 10px;
+    text-align: center;
+}

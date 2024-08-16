@@ -1,0 +1,8 @@
+section.speakers{
+    padding: clamp(30px, 5vw, 70px) 10px;
+    text-align: center;
+
+    & h3{
+        margin: clamp(25px, 5vw, 50px) 0 0 0;
+    }
+}

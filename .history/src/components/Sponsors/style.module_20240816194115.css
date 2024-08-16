@@ -1,0 +1,6 @@
+.sponsor__section{
+    text-align: center;
+    & .main__sponsors{
+        display: flex;
+    }
+}

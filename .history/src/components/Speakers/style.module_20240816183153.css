@@ -1,0 +1,45 @@
+section.speakers{
+    padding: clamp(30px, 5vw, 70px) 10px;
+    text-align: center;
+
+    & h3{
+        margin: clamp(25px, 4vw, 50px) 0 clamp(15px, 4vw, 30px) 0;
+    }
+
+    & .speaker__items{
+        display: flex;
+
+        & .speaker__item {
+            flex-basis: calc((100% - 30px) / 4);
+            margin: 0 20px 0 0;
+            border-radius: 0 25px 0 25px;
+            &:last-child{
+                margin: 0;
+            }
+            & h5{
+                font: 700 20px Montserrat;
+                color: var(--globalPrimary);
+                padding: 5px 0;
+                border-bottom: 1px solid #00BAFF;
+            }
+            & h6{
+                font: 400 14px/28px Montserrat;
+                color: var(--globalPrimary);
+            }
+            & p{
+                font: 700 12px Montserrat;
+                color: var(--globalPrimary);
+            }
+            & img{
+                width: 100%;
+            }
+
+            &:hover{
+                box-shadow: 0 0 5px 2px var(--globalPrimary);
+                & img{
+                    transform: translateY(-3px);
+                }
+            }
+        }
+    }
+}
