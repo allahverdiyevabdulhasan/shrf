@@ -1,0 +1,39 @@
+.gallery{
+    padding: 120px 10px;
+    background: url(../../../public//assets/img/galleryBg.webp) center top/cover;
+    position: relative;
+    color: #fff;
+    &::after{
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: #000637;
+        opacity: .9;
+    }
+    & > *{
+        position: relative;
+        z-index: 2;
+    }
+    & .gallery__content{
+        display: flex;
+    }
+    & h2{
+        color: inherit;
+    }
+
+    & h3{
+        font: 700 16px Montserrat;
+        color: inherit;
+        margin: 18px 0 16px 0;
+    }
+
+    & .left__content{
+        & ul{
+            list-style: disc;
+            padding:  0 0 0 20px;
+            & li{
+                padding: 5px 0;
+            }
+        }
+    }
+}

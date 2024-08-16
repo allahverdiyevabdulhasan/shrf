@@ -1,0 +1,24 @@
+footer{
+    background: url(./../../../public/assets/img/footerBg.webp) right top/cover;
+    padding: 100px 0;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        inset: 0;
+        opacity: .9;
+        background: var(--globalPrimary);
+    }
+    & > *{
+        position: relative;
+        z-index: 99;
+    }
+
+    .footer__logo{
+        max-width: 250px;
+        margin: auto;
+        & img{
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.gallery{
+    padding: 120px 10px;
+    background: url(../../../public//assets/img/galleryBg.webp) center top/cover;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: #000637;
+        opacity: .9;
+    }
+    & > *{
+        position: relative;
+        z-index: 2;
+    }
+    & h2{
+        text-align: center;
+        color: #fff;
+    }
+}

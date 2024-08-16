@@ -1,0 +1,7 @@
+.program{
+    text-align: center;
+
+    & .date{
+        background-color: #2A3988;
+    }
+}
