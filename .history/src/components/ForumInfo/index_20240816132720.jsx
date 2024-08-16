@@ -2,7 +2,7 @@ import s from './style.module.css'
 
 export default function ForumInfo() {
     return (
-        <section className={s.forum__info} id='forum'>
+        <section className={s.forum__info}>
             <article className='container'>
                 <div className={s.left__content}>
                     <img src="./public/assets/img/forumInfo1.webp" alt="" className={s.main__img} />

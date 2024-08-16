@@ -11,9 +11,6 @@
 :root {
   --globalPrimary: #2a3988;
 }
-html{
-  scroll-behavior: smooth;
-}
 .show__burger{
   overflow: hidden;
 }
@@ -63,9 +60,4 @@ button {
   color: var(--globalPrimary);
   font-size: clamp(40px, 5vw, 60px);
   font-weight: 700;
-}
-.sub__title{
-  color: var(--globalPrimary);
-  font-size: 24px;
-  font-weight: 400;
 }

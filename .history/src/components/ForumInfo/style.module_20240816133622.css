@@ -74,14 +74,11 @@
         & article {
             flex-direction: column;
 
-            & img[class] {
+            & img.other_img {
                 position: static;
                 max-width: 100% !important;
+                margin: 15px 0;
                 border: 10px solid #fff;
-                margin: 5px 0;
-            }
-            & > div:last-child{
-                padding: 0;
             }
         }
 

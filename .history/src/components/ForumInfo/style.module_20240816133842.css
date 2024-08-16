@@ -80,7 +80,7 @@
                 border: 10px solid #fff;
                 margin: 5px 0;
             }
-            & > div:last-child{
+            & div.right__content{
                 padding: 0;
             }
         }

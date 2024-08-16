@@ -1,0 +1,29 @@
+.forum__info{
+    background: #EFEFEF;
+    padding: 100px 0;
+    & article{
+        display: flex;
+        & > div{
+            flex-basis: 50%;
+            &:last-child{
+                padding: 0 0 0 40px;
+            }
+            & img{
+                width: 100%;
+            }
+        }
+
+        & h3{
+            margin: 17px 0 24px 0;
+        }
+        & p{
+            color: #497898;
+            line-height: 28px;
+        }
+
+        & .main__img{
+            border-radius: 50%;
+            border: 15px solid #fff;
+        }
+    }
+}

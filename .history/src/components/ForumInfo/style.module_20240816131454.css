@@ -1,0 +1,10 @@
+.forum__info{
+    background: #EFEFEF;
+    padding: 100px 0;
+    & article{
+        display: flex;
+        & > div{
+            flex-basis: 50%;
+        }
+    }
+}

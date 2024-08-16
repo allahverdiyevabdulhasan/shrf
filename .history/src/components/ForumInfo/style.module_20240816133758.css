@@ -80,9 +80,6 @@
                 border: 10px solid #fff;
                 margin: 5px 0;
             }
-            & > div:last-child{
-                padding: 0;
-            }
         }
 
 
