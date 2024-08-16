@@ -1,0 +1,13 @@
+header{
+    position: fixed;
+    inset: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.top__right{
+    ul{
+        display: flex;
+    }
+}

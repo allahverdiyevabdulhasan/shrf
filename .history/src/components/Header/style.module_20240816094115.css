@@ -1,0 +1,20 @@
+header {
+    position: fixed;
+    inset: 0;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.top__right ul, .top__right a {
+
+    display: flex;
+    align-items: center;
+
+}
+.top__right li{
+    margin: 0 0 0 50px;
+}
