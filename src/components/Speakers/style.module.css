@@ -36,7 +36,7 @@ section.speakers{
             }
 
             &:hover{
-                box-shadow: 0 0 5px 2px var(--globalPrimary);
+                /* box-shadow: 0 0 5px 2px var(--globalPrimary); */
                 & img{
                     transform: translateY(-3px);
                 }

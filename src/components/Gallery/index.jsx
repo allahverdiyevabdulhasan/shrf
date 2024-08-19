@@ -7,12 +7,12 @@ export default function Gallery() {
     const [currentIndex, setCurrentIndex] = useState(null)
 
     const images = [
-        './public/assets/img/gallery1.webp',
-        './public/assets/img/gallery2.webp',
-        './public/assets/img/gallery3.webp',
-        './public/assets/img/gallery4.webp',
-        './public/assets/img/gallery5.webp',
-        './public/assets/img/gallery6.webp'
+        '/src/assets/img/gallery1.webp',
+        '/src/assets/img/gallery2.webp',
+        '/src/assets/img/gallery3.webp',
+        '/src/assets/img/gallery4.webp',
+        '/src/assets/img/gallery5.webp',
+        '/src/assets/img/gallery6.webp'
     ];
 
     return (
@@ -61,7 +61,7 @@ export default function Gallery() {
                 <div className="container">
                 <article>
                     <div className={s.feature__icon}>
-                    <img src="./public/assets/img/feature1.webp" alt="" />
+                    <img src="/src/assets/img/feature1.webp" alt="" />
 
                     </div>
                     <h4>
@@ -74,7 +74,7 @@ export default function Gallery() {
 
                 <article>
                     <div className={s.feature__icon}>
-                    <img src="./public/assets/img/feature2.webp" alt="" />
+                    <img src="/src/assets/img/feature2.webp" alt="" />
 
                     </div>
                     <h4>
@@ -87,7 +87,7 @@ export default function Gallery() {
 
                 <article>
                     <div className={s.feature__icon}>
-                    <img src="./public/assets/img/feature3.webp" alt="" />
+                    <img src="/src/assets/img/feature3.webp" alt="" />
 
                     </div>
                     <h4>

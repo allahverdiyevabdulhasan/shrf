@@ -1,6 +1,6 @@
 .intro{
     min-height: 80vh;
-    background: url('./../../../public/assets/img/introBg.webp') center/cover;
+    background: url('/src/assets/img/introBg.webp') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;

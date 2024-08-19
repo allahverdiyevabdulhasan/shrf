@@ -5,7 +5,7 @@ export default function Speakers() {
     const speakers = {
         strategicHr: [
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Dəyanət Ağayev',
                 workplace: 'Paprec, HR director',
                 position: 'Moderator',
@@ -25,7 +25,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker2.webp',
+                avatar: '/src/assets/img/speaker2.webp',
                 name: 'Mahmut Temiz',
                 workplace: 'CHRO – Polisan Holding',
                 position: '',
@@ -45,7 +45,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker3.webp',
+                avatar: '/src/assets/img/speaker3.webp',
                 name: 'Ceyhun Nağıyev',
                 workplace: 'Azərbaycan Dəmir Yolları, CHRO',
                 position: '',
@@ -65,7 +65,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker4.webp',
+                avatar: '/src/assets/img/speaker4.webp',
                 name: 'Vahida Rzayeva',
                 workplace: '“AzerGold” CJSC, HR Director',
                 position: 'Moderator',
@@ -87,7 +87,7 @@ export default function Speakers() {
         ],
         ceoHr: [
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Dəyanət Ağayev',
                 workplace: 'Paprec, HR director',
                 position: 'Moderator',
@@ -107,7 +107,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Mahmut Temiz',
                 workplace: 'CHRO – Polisan Holding',
                 position: '',
@@ -127,7 +127,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Ceyhun Nağıyev',
                 workplace: 'Azərbaycan Dəmir Yolları, CHRO',
                 position: '',
@@ -147,7 +147,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Vahida Rzayeva',
                 workplace: '“AzerGold” CJSC, HR Director',
                 position: 'Moderator',
@@ -169,7 +169,7 @@ export default function Speakers() {
         ],
         performance: [
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Dəyanət Ağayev',
                 workplace: 'Paprec, HR director',
                 position: 'Moderator',
@@ -189,7 +189,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Mahmut Temiz',
                 workplace: 'CHRO – Polisan Holding',
                 position: '',
@@ -209,7 +209,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Ceyhun Nağıyev',
                 workplace: 'Azərbaycan Dəmir Yolları, CHRO',
                 position: '',
@@ -229,7 +229,7 @@ export default function Speakers() {
                 ]
             },
             {
-                avatar: './public/assets/img/speaker1.webp',
+                avatar: '/src/assets/img/speaker1.webp',
                 name: 'Vahida Rzayeva',
                 workplace: '“AzerGold” CJSC, HR Director',
                 position: 'Moderator',

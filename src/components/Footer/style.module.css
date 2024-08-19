@@ -1,5 +1,5 @@
 footer {
-    background: url(./../../../public/assets/img/footerBg.webp) right top/cover;
+    background: url(./../../assets/img/footerBg.webp) right top/cover;
     padding: 100px 0;
     position: relative;
 
