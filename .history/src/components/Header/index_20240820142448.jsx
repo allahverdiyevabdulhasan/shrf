@@ -60,7 +60,7 @@ export default function Header() {
 
                     <div className={s.header__items}>
                         <div className={s.logo}>
-                            <a href="/"><img src="/assets/img/logo.webp" alt="Logo" /></a>
+                            <a href="/"><img src="/src/assets/img/logo.webp" alt="Logo" /></a>
                         </div>
 
                         <NavItems />

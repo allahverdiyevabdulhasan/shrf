@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer>
             <div className={s.footer__logo}>
-                <a href=""><img src="/assets/img/footerLogo.webp" alt="" /></a>
+                <a href=""><img src="/src/assets/img/footerLogo.webp" alt="" /></a>
             </div>
 
             <p>

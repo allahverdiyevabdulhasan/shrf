@@ -5,9 +5,9 @@ export default function ForumInfo() {
         <section className={s.forum__info} id='forum'>
             <article className='container'>
                 <div className={s.left__content}>
-                    <img src="/assets/img/forumInfo1.webp" alt="" className={s.main__img} />
-                    <img src="/assets/img/forumInfo2.webp" alt="" className={s.other_img} />
-                    <img src="/assets/img/forumInfo3.webp" alt="" className={s.other_img} />
+                    <img src="/src/assets/img/forumInfo1.webp" alt="" className={s.main__img} />
+                    <img src="/src/assets/img/forumInfo2.webp" alt="" className={s.other_img} />
+                    <img src="/src/assets/img/forumInfo3.webp" alt="" className={s.other_img} />
                 </div>
                 <div className="right__content">
                     <h2 className='section__title'>Forum Haqqında</h2>
