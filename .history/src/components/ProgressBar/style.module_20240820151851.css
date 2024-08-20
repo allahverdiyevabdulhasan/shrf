@@ -1,0 +1,28 @@
+.progress__bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    width: 0;
+    border: 0;
+    margin: 0;
+    background: #7d7de6;
+    z-index: 99999;
+    box-shadow: 0 0 10px 5px #7d7de6;
+    transition: none;
+}
+
+.to__top{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    width: 45px;
+    h45px
+    margin: 0;
+    padding: 0;
+    border: 0;
+    & svg{
+        margin: 0;
+    }
+}
