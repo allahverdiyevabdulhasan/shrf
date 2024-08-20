@@ -17,7 +17,7 @@ export default function Gallery() {
 
     return (
        <>
-         <section className={`${s.gallery}`} id='gallery'>
+         <section className={`${s.gallery}`}>
             <div className={`container ${s.gallery__content}`}>
                 <div className={s.left__content}>
                     <h2 className='section__title'>

@@ -4,7 +4,7 @@ import s from './style.module.css';
 export default function Program() {
 
     return (
-        <section className={`${s.program} container`} id='program'>
+        <section className={`${s.program} container`}>
             <h2 className='section__title'>
                 Proqram
             </h2>
@@ -19,7 +19,7 @@ export default function Program() {
                 </div>
             </div>
 
-            <div className={s.contact__us} id='contact'>
+            <div className={s.contact__us}>
                 <div className={s.left__content}>
                     <h2 className='section__title'>
                         Əlaqə

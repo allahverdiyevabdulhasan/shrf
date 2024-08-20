@@ -253,7 +253,7 @@ export default function Speakers() {
 
 
     return (
-        <section className={`${s.speakers} container`} id='speakers'>
+        <section className={`${s.speakers} container`}>
             <h2 className='section__title'>
                 Spikerlər
             </h2>

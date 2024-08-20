@@ -12,10 +12,10 @@ export default function NavItems() {
                 <ul>
                     <li><a href="#forum">Haqqımızda</a></li>
                     <li><a href="#speakers">Spikerlər</a></li>
-                    <li><a href="#sponsors">Sponsorlar</a></li>
-                    <li><a href="#gallery">Qalereya</a></li>
-                    <li><a href="#program">Proqram</a></li>
-                    <li><a href="#contact">Əlaqə</a></li>
+                    <li><a href="">Sponsorlar</a></li>
+                    <li><a href="">Qalereya</a></li>
+                    <li><a href="">Proqram</a></li>
+                    <li><a href="">Əlaqə</a></li>
                 </ul>
             </nav>
             <button className='buy__button'>
