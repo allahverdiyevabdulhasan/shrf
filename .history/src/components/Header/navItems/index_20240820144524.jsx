@@ -6,7 +6,7 @@ export default function NavItems() {
     return (
         <>
             <div className={s.mob__logo}>
-                <a href=""><img src="/src/assets/img/mobLogo.webp" alt="Mob logo" /></a>
+                <a href=""><img src="/assets/img/mobLogo.webp" alt="Mob logo" /></a>
             </div>
             <nav>
                 <ul>
