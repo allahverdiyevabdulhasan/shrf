@@ -76,6 +76,7 @@
 
 .features {
     background: url(/src/assets/img/featuresBg.webp) center bottom/cover;
+    padding: 0 0 80px 0;
     position: relative;
     z-index: 1;
     &>div {

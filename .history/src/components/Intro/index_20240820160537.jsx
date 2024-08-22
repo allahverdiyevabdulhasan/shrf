@@ -12,7 +12,7 @@ export default function Intro() {
                     <span>Human Capital</span>
                 </h1>
 
-                <p>4 oktyabr - Fairmont Baku</p>
+                <p>7 oktyabr - Fairmont Baku</p>
 
                 <div className={s.buttons}>
                 <button className='buy__button'>

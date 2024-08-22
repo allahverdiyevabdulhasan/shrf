@@ -25,6 +25,7 @@ export default function Gallery() {
         }
         getCardData();
     }, [])
+    console.log(data)
 
     return (
         <>
@@ -59,7 +60,7 @@ export default function Gallery() {
 
                         {currentIndex !== null && (
                             <Lightbox
-                                images={data.map((src) => ({ url: src.image }))}
+                                images={data.map((src) => ({ url: src }))}
                                 startIndex={currentIndex}
                                 onClose={() => setCurrentIndex(null)}
                             />
@@ -85,8 +86,7 @@ export default function Gallery() {
                                 </p>
                             </article>
                         )
-                    }).reverse()
-                    }
+                    })}
                 </div>
             </section>
 

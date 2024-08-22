@@ -25,6 +25,7 @@ export default function Gallery() {
         }
         getCardData();
     }, [])
+    console.log(data)
 
     return (
         <>
@@ -85,8 +86,7 @@ export default function Gallery() {
                                 </p>
                             </article>
                         )
-                    }).reverse()
-                    }
+                    })}
                 </div>
             </section>
 
