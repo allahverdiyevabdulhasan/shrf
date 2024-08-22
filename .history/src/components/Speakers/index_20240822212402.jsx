@@ -16,6 +16,7 @@ export default function Speakers() {
         }
         getData();
     }, [])
+    // console.log(speakers)
 
 
 

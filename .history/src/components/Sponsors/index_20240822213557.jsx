@@ -13,16 +13,17 @@ export default function Sponsor() {
         getData();
     }, [])
 
+    console.log(data);
     
     return(
-        <section className={`${s.sponsor__section} container`} id='sponsors'>
+        <section className={`${s.sponsor__section} container`}>
             <h2 className='section__title'>
             Sponsorlar
             </h2>
             <ul className={s.main__sponsors}>
                    {data.length>10 && (<>
-                    <li><a href={data[10].website_link} target='_blank'><img src={data[10].image} alt="" /></a></li>
-                     <li><a href={data[10].website_link} target='_blank'><img src={data[9].image} alt="" /></a></li>
+                    <li><a href=""><img src={data[10].image} alt="" /></a></li>
+                     <li><a href=""><img src={data[9].image} alt="" /></a></li>
                    </>)}
                    
                 
@@ -30,7 +31,7 @@ export default function Sponsor() {
             </ul>
              <ul className={s.other__sponsors}>
                 {data.slice(0, 8).map((item, index) => (
-                    <li key={index}><a href={item.website_link} target='_blank'><img src={item.image} alt="" /></a></li>
+                    <li key={index}><a href=""><img src={item.image} alt="" /></a></li>
                 ))}
                 </ul>
         </section>

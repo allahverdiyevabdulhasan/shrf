@@ -11,6 +11,7 @@ export default function ForumInfo() {
         }
         getData();
     }, [])
+    console.log("about", data)
     return (
         <section className={s.forum__info} id='forum'>
             <article className='container'>

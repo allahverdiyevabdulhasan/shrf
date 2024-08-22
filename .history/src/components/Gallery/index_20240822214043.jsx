@@ -25,6 +25,7 @@ export default function Gallery() {
         }
         getCardData();
     }, [])
+    console.log(data)
 
     return (
         <>

@@ -13,6 +13,7 @@ export default function Sponsor() {
         getData();
     }, [])
 
+    console.log(data);
     
     return(
         <section className={`${s.sponsor__section} container`} id='sponsors'>

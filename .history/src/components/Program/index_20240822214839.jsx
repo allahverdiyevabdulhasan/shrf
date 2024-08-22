@@ -11,6 +11,7 @@ export default function Program() {
             .catch(err => console.log("error", err))
     }, [])
 
+    console.log(contact);
     
 
     return (
@@ -52,7 +53,7 @@ export default function Program() {
                                 </p>
                                 <p>
                                     <svg width={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z" stroke="var(--globalPrimary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
-                                    <a href={item.location_url} target='_blank'>{item.location_name}
+                                    <a href="https://www.google.com/maps/place/Фэйрмонт+Баку/@40.3602613,49.8235942,17z/data=!3m1!4b1!4m9!3m8!1s0x403a7d8139ede473:0x2424959edacdfc05!5m2!4m1!1i2!8m2!3d40.3602613!4d49.8261691!16s%2Fm%2F0jvs758?entry=ttu">{item.location_name}
                                     </a>
                                 </p>
                             </>

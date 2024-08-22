@@ -11,6 +11,7 @@ export default function ForumInfo() {
         }
         getData();
     }, [])
+    console.log("about", data)
     return (
         <section className={s.forum__info} id='forum'>
             <article className='container'>
@@ -30,6 +31,7 @@ export default function ForumInfo() {
                         <div className="right__content" key={index}>
                             <h2 className='section__title'>{item.title}</h2>
                             <h3 className='sub__title'>{item.purpose}</h3>
+                            
                             {item.content.split('\r\n\r\n').map((paragraph, i) => (
                             <div key={i} className={i === item.content.split('\r\n\r\n').length - 1 ? s.lastParagraph : s.paragraph}>
                                 {paragraph.split('\r\n').map((line, j) => (
