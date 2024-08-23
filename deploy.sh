@@ -5,5 +5,5 @@ echo "Bulding app ..."
 npm run build
 
 echo "Deploying files to server..."
-scp -r dist/* shrf@165.227.136.194:/var/www/shrf.com/
+scp -r dist/* shrf@165.227.136.194:/var/www/shrf.az/
 echo "Done!"
