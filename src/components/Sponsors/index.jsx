@@ -5,7 +5,7 @@ export default function Sponsor() {
     const [data,setData]=useState([])
     useEffect(() => {
         const getData = () => {
-            fetch("http://139.59.208.152/api/sponsors/")
+            fetch("https://neymanacademy.shop/api/sponsors/")
                 .then(response => response.json())
                 .then(data => setData(data))
                 .catch(err => console.log("error", err))

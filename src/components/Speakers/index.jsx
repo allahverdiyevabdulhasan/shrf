@@ -5,7 +5,7 @@ export default function Speakers() {
     const [speakers, setSpeakers] = useState([])
     useEffect(() => {
         const getData = () => {
-            fetch("http://139.59.208.152/api/spikers/")
+            fetch("https://neymanacademy.shop/api/spikers/")
                 .then(response => response.json())
                 .then(data => {
                     console.log(data);

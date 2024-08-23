@@ -4,7 +4,7 @@ export default function ForumInfo() {
     const [data, setData] = useState([])
     useEffect(() => {
         const getData = () => {
-            fetch("http://139.59.208.152/api/about-forum/")
+            fetch("https://neymanacademy.shop/api/about-forum/")
                 .then(response => response.json())
                 .then(data => setData(data))
                 .catch(err => console.log("error", err))

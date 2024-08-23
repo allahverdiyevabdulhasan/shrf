@@ -9,7 +9,7 @@ export default function Gallery() {
 
     useEffect(() => {
         const getData = () => {
-            fetch("http://139.59.208.152/api/gallery/")
+            fetch("https://neymanacademy.shop/api/gallery/")
                 .then(response => response.json())
                 .then(data => setData(data))
                 .catch(err => console.log("error", err))
@@ -18,7 +18,7 @@ export default function Gallery() {
     }, [])
     useEffect(() => {
         const getCardData = () => {
-            fetch("http://139.59.208.152/api/card-section/")
+            fetch("https://neymanacademy.shop/api/card-section/")
                 .then(response => response.json())
                 .then(data => setCard(data))
                 .catch(err => console.log("error", err))

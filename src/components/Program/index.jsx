@@ -5,7 +5,7 @@ import s from './style.module.css';
 export default function Program() {
     const [contact, setContact] = useState([])
     useEffect(() => {
-        fetch("http://139.59.208.152/api/contact-info/")
+        fetch("https://neymanacademy.shop/api/contact-info/")
             .then(response => response.json())
             .then(data => setContact(data))
             .catch(err => console.log("error", err))
