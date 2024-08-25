@@ -14,28 +14,27 @@ export default function Sponsor() {
         getData();
     }, [])
 
+    console.log(data);
     
     
     return(
-        <section className={`${s.sponsor__section} `} id='sponsors'>
+        <section className={`${s.sponsor__section} container`} id='sponsors'>
             <h2 className='section__title'>
             Sponsorlar
             </h2>
-           <div className="container">
-           <ul className={s.main__sponsors}>
-                   {data.length && (<>
-                    <li><a href={data[data.length - 1].website_link} target='_blank'><img src={data[data.length - 1].image} alt="" /></a></li>
+            <ul className={s.main__sponsors}>
+                   {data.length>10 && (<>
+                    <li><a href={data[4].website_link} target='_blank'><img src={data[4].image} alt="" /></a></li>
                    </>)}
                    
                 
                
             </ul>
              <ul className={s.other__sponsors}>
-                {data.slice(0, data.length - 1).map((item, index) => (
+                {data.slice(0, 8).map((item, index) => (
                     <li key={index}><a href={item.website_link} target='_blank'><img src={item.image} alt="" /></a></li>
                 ))}
                 </ul>
-           </div>
         </section>
     )
 }

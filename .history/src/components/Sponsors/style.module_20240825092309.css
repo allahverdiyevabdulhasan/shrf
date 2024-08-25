@@ -11,7 +11,7 @@
         margin: auto;
        }
        & img:hover{
-        filter: drop-shadow(0 0 10px #7d7de6);
+        filter: drop-shadow(0 0 10px red);
        }
         
     }
@@ -21,7 +21,7 @@
       align-items: center;
         gap: 20px;
         & img:hover{
-            filter: drop-shadow(0 0 10px #7d7de6);
+            filter: drop-shadow(0 0 10px 3px #7d7de6);
            }
     }
 }

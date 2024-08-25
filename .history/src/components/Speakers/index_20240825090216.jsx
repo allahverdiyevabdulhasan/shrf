@@ -29,7 +29,7 @@ export default function Speakers() {
                             {
                                 speaker.facebook && (
                                     <button className={s.soc__icon}>
-                                        <a href={speaker.facebook} className={s.soc__link} target='_blank'></a>
+                                        <a href={speaker.facebook} className={s.soc__link}></a>
                                         <span className={s.svgContainer}>
                                             <svg
                                                 viewBox="0 0 24 24"
@@ -51,7 +51,7 @@ export default function Speakers() {
                             }
                             {speaker.instagram && (
                                 <button className={`${s.soc__icon} ${s.insta}`}>
-                                    <a href={speaker.instagram} className={`${s.soc__icon} ${s.insta}`} target='_blank'> </a>
+                                    <a href={speaker.instagram} className={`${s.soc__icon} ${s.insta}`}> </a>
                                     <span className={s.svgContainer}>
                                         <svg
                                             fill="white"
@@ -72,7 +72,7 @@ export default function Speakers() {
                             )}
                             {speaker.linkedIn && (
                                 <button className={`${s.soc__icon} ${s.linked}`}>
-                                    <a href={speaker.linkedIn} className={`${s.soc__link} ${s.linked}`} target='_blank'></a>
+                                    <a href={speaker.linkedIn} className={`${s.soc__link} ${s.linked}`}></a>
                                     <span>
                                         <svg
                                             viewBox="0 0 24 24"

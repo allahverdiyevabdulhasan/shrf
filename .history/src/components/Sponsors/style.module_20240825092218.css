@@ -10,8 +10,8 @@
         max-width: 250px;
         margin: auto;
        }
-       & img:hover{
-        filter: drop-shadow(0 0 10px #7d7de6);
+       & img{
+        filter: drop-shadow(0 0 10px red);
        }
         
     }
@@ -20,9 +20,6 @@
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
       align-items: center;
         gap: 20px;
-        & img:hover{
-            filter: drop-shadow(0 0 10px #7d7de6);
-           }
     }
 }
 
