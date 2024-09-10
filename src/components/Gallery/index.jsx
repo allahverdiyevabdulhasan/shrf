@@ -6,10 +6,11 @@ export default function Gallery() {
     const [data, setData] = useState([])
     const [card, setCard] = useState([])
     const [currentIndex, setCurrentIndex] = useState(null)
+    const baseUrl = import.meta.env.VITE_API_BASE_URL
 
     useEffect(() => {
         const getData = () => {
-            fetch("https://neymanacademy.shop/api/gallery/")
+            fetch(`${baseUrl}/api/gallery`)
                 .then(response => response.json())
                 .then(data => setData(data))
                 .catch(err => console.log("error", err))

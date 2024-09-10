@@ -2,9 +2,10 @@ import s from './style.module.css'
 import { useEffect, useState } from 'react'
 export default function ForumInfo() {
     const [data, setData] = useState([])
+    const baseUrl=import.meta.env.VITE_API_BASE_URL;
     useEffect(() => {
         const getData = () => {
-            fetch("https://neymanacademy.shop/api/about-forum/")
+            fetch(`${baseUrl}/api/about-forum`)
                 .then(response => response.json())
                 .then(data => setData(data))
                 .catch(err => console.log("error", err))

@@ -1,17 +1,19 @@
 import { useEffect, useState } from 'react';
 import s from './style.module.css';
-
+import program from "../../assets/img/program.png"
 
 export default function Program() {
+    const baseUrl = import.meta.env.VITE_API_BASE_URL
+
     const [contact, setContact] = useState([])
     useEffect(() => {
-        fetch("https://neymanacademy.shop/api/contact-info/")
+        fetch(`${baseUrl}/api/contact-info/`)
             .then(response => response.json())
             .then(data => setContact(data))
             .catch(err => console.log("error", err))
     }, [])
 
-    
+
 
     return (
         <section className={`${s.program} container`} id='program'>
@@ -25,7 +27,7 @@ export default function Program() {
                         <svg width={22} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M20 10V7C20 5.89543 19.1046 5 18 5H6C4.89543 5 4 5.89543 4 7V10M20 10V19C20 20.1046 19.1046 21 18 21H6C4.89543 21 4 20.1046 4 19V10M20 10H4M8 3V7M16 3V7" stroke="#ffffff" strokeWidth="2" strokeLinecap="round"></path> <rect x="6" y="12" width="3" height="3" rx="0.5" fill="#ffffff"></rect> <rect x="10.5" y="12" width="3" height="3" rx="0.5" fill="#ffffff"></rect> <rect x="15" y="12" width="3" height="3" rx="0.5" fill="#ffffff"></rect> </g></svg>
                         4 oktyabr</p>
 
-                    <img src="/assets/img/program.webp" alt="" />
+                    <img src={program} alt="err" />
                 </div>
             </div>
 
