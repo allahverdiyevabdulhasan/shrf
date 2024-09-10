@@ -1,0 +1,28 @@
+.sponsor__section{
+    text-align: center;
+    & img{
+        width: 100%;
+    }
+    & .main__sponsors{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    & .other__sponsors{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      
+    }
+}
+
+@media only screen and (width < 500px) {
+    .sponsor__section{
+    
+        & .main__sponsors{
+            display: grid;
+            grid-template-columns: 1fr;
+            
+        }
+       
+    }
+}
