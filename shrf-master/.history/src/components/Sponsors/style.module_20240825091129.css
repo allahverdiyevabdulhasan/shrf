@@ -1,0 +1,34 @@
+.sponsor__section{
+    text-align: center;
+    & img{
+        width: 100%;
+    }
+    & .main__sponsors{
+       & li {
+        max-width: 450px;
+        margin: auto;
+       }
+        
+    }
+    & .other__sponsors{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      align-items: center;
+      & li{
+        padding: 15px;
+        background: #bebebe;
+      }
+    }
+}
+
+@media only screen and (width < 500px) {
+    .sponsor__section{
+    
+        & .main__sponsors{
+            display: grid;
+            grid-template-columns: 1fr;
+            
+        }
+       
+    }
+}
